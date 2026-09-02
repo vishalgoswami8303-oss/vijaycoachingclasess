@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07111f">
+<title>Vijay Coaching Classes</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#07111f;--card:#0d1b2e;--line:#28425f;--text:#eef6ff;--muted:#9fb1c5;--accent:#31d7ff;--accent2:#8b5cf6}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top,#132b45 0,#07111f 42%,#040a12 100%);color:var(--text);min-height:100vh}
+.container{width:min(1150px,92%);margin:auto}
+header{text-align:center;padding:48px 0 28px}
+.badge{display:inline-block;border:1px solid #31516f;border-radius:999px;padding:8px 16px;color:#aeeeff;background:#09192a;font-size:13px;margin-bottom:15px}
+h1{font-size:clamp(32px,6vw,62px);letter-spacing:1px;font-weight:800;background:linear-gradient(90deg,#fff,#8eeeff,#b99cff);-webkit-background-clip:text;color:transparent}
+.subtitle{color:var(--muted);margin-top:10px;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:25px 0 40px}
+.card{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(16,34,56,.95),rgba(7,18,31,.95));border:1px solid var(--line);border-radius:22px;padding:24px;min-height:190px;box-shadow:0 15px 40px #0005;transition:.3s}
+.card:hover{transform:translateY(-6px);border-color:#4e7194;box-shadow:0 20px 50px #0008}
+.icon{font-size:35px;margin-bottom:16px}
+.card h2{font-size:21px;margin-bottom:8px}
+.card p{color:var(--muted);line-height:1.5;font-size:14px}
+.btn{display:inline-flex;margin-top:18px;text-decoration:none;color:var(--text);border:1px solid #4d7398;border-radius:12px;padding:10px 15px;font-weight:700;background:#0a1829;transition:.2s}
+.btn:hover{border-color:var(--accent);color:#fff;box-shadow:0 0 18px #31d7ff33}
+.btn:active{transform:scale(.94)}
+footer{border-top:1px solid #20364d;padding:35px 0 45px;color:var(--muted);text-align:center}
+footer h3{color:#e9f7ff;margin-bottom:12px;font-size:20px}
+.details{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+.detail{border:1px solid #20364d;border-radius:15px;padding:16px;background:#071523}
+.detail b{display:block;color:#dff8ff;margin-bottom:5px}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.details{grid-template-columns:1fr}}
+@media(max-width:520px){header{padding-top:32px}.grid{grid-template-columns:1fr}.card{min-height:auto}.container{width:94%}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="badge">🎓 आपका डिजिटल स्टडी पोर्टल</div>
+  <h1>VIJAY COACHING CLASSES</h1>
+  <p class="subtitle">Online Test • Important Notes • Current GK • Study Resources</p>
+</header>
+
+<main class="grid">
+  <section class="card"><div class="icon">📝</div><h2>Online Test</h2><p>Practice tests और mock tests के लिए यह सेक्शन।</p><a class="btn" href="online-test.html">Open Test →</a></section>
+  <section class="card"><div class="icon">📚</div><h2>Important Notes</h2><p>Exam preparation के जरूरी notes और study material।</p><a class="btn" href="important-notes.html">Open Notes →</a></section>
+  <section class="card"><div class="icon">📰</div><h2>Current GK</h2><p>Current affairs और general knowledge resources।</p><a class="btn" href="current-gk.html">Open GK →</a></section>
+  <section class="card"><div class="icon">📄</div><h2>Study Material</h2><p>PDF, documents और future resources रखने की जगह।</p><a class="btn" href="study-material.html">Open Material →</a></section>
+  <section class="card"><div class="icon">🎯</div><h2>Practice Zone</h2><p>Extra practice sets और topic-wise preparation।</p><a class="btn" href="practice-zone.html">Open Practice →</a></section>
+  <section class="card"><div class="icon">📢</div><h2>Notice & Updates</h2><p>Important announcements और future updates यहाँ जोड़ें।</p><a class="btn" href="notices.html">View Updates →</a></section>
+</main>
+
+<footer>
+  <h3>Vijay Coaching Classes</h3>
+  <p>यह वेबसाइट विद्यार्थियों को online preparation, practice tests, notes और GK resources एक ही जगह उपलब्ध कराने के लिए बनाई गई है।</p>
+  <div class="details">
+    <div class="detail"><b>🎓 उद्देश्य</b>बेहतर और आसान exam preparation</div>
+    <div class="detail"><b>📖 Resources</b>Tests, Notes, GK & Study Material</div>
+    <div class="detail"><b>🚀 Future Ready</b>नए sections और files आसानी से जोड़े जा सकते हैं</div>
+  </div>
+  <p style="margin-top:25px;font-size:13px">© 2026 Vijay Coaching Classes • All Rights Reserved</p>
+</footer>
+</div>
+</body>
+</html>
